@@ -1,7 +1,7 @@
 # Defense repo
-Slides for oral portion of my defense. 
+Slides for our ACC 2022 paper. 
 
-https://tdgriffith.github.io/defense/
+https://tdgriffith.github.io/acc_slides/
 
 ## Previewing locally
 
