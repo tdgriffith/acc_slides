@@ -33,13 +33,15 @@
 
 <div class="col">
 
-<dl>
-<dt>Three significant uncertainties</dt>
-  <dd>- Input $u$ is unknown, external</dd>
-  <dd>- State matrix $A$ may have uncertainty</dd>
-  <dd>- Known, Lipschitz nonlinear internal dynamics $g(x)$</dd>
-<dt>Can we synthesize $u$ and correct $A$?</dt>
-</dl> 
+<ul style="font-size:1.5vw">
+<li style="padding-bottom:0.9em">Three significant uncertainties</li>
+<ul>
+  <li style="padding-bottom:0.9em"> Input $u$ is unknown, external, deterministic</li>
+  <li style="padding-bottom:0.9em"> State matrix $A$ may have uncertainty</li>
+  <li style="padding-bottom:0.9em"> Known, Lipschitz nonlinear internal dynamics $g(x)$</li>
+  </ul>
+<li ><strong><em>Can we synthesize $u$ and correct $A$?</em></strong></li>
+</ul> 
 </div>
 
 
@@ -54,9 +56,9 @@
 
 
 </div>
-
-
+</div>
 </section>
+
 
 <section>
 <h1> Adaptive Unknown Input Estimators </h1>
@@ -82,14 +84,17 @@
 
 <div class="col">
 
-<dl>
-<dt>Approximate input space $\mathbb{U}$</dt>
-  <dd>- $\hat{u}=\sum_{i=1}^{N} c_i f_i(t)$</dd>
-<dt>Persisten Inputs</dt>
-  <dd>- $\dot{z}_u=F_u z_u$</dd>
-  <dd>- $\hat{u}=\Theta_u z_u$</dd>
-  <dd>- $F_u = \begin{bmatrix} 0 & 1 & 0 \\\ -\omega^2 & 0 & 0 \\\ 0 & 0 & 0 \end{bmatrix}$</dd>
-</dl> 
+<ul>
+<li style="padding-bottom:0.9em">Approximate input space $\mathbb{U}$</li>
+  <ul>
+  <li style="padding-bottom:0.9em">$\hat{u}=\sum_{i=1}^{N} c_i f_i(t)$</li></ul>
+<li style="padding-bottom:0.9em" style="padding-bottom:0.9em">Persistent Inputs</dt>
+<ul>
+  <li style="padding-bottom:0.9em">$\dot{z}_u=F_u z_u$</li>
+  <li style="padding-bottom:0.9em">$\hat{u}=\Theta_u z_u$</li>
+  <li style="padding-bottom:0.9em">$F_u = \begin{bmatrix} 0 & 1 & 0 \\\ -\omega^2 & 0 & 0 \\\ 0 & 0 & 0 \end{bmatrix}$</li>
+  </ul>
+</ul> 
 </div>
 
 
@@ -102,7 +107,7 @@
 
 
 </div>
-
+</div>
 
 </section>
 
