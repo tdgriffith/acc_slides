@@ -166,8 +166,14 @@ Error dynamics
 <h1> Adaptive Unknown Input Estimators </h1>
 <h2> Architecture and estimator error </h2>
 
+
+
  <ul>
-  <li>ASD plant dynamics</li>
+  <li style="padding-bottom:0.9em">ASD plant dynamics</li>
+<ul>
+<li style="padding-bottom:0.9em">`$A_c^* P + P A_c = -Q$`</li>
+<li style="padding-bottom:0.9em">`$PB=C^*$`</li>
+</ul>
   <li>$A$ Hurwitz</li>
   <li>Bounded `$L_{*}$`</li>
   <li>Error in state and input converges to zero
