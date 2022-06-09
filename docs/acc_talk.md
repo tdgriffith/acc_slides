@@ -5,7 +5,7 @@
 ## T. Griffith, V. Gehlot, M. Balas
 #### ACC 2022
 
-#### June 8, 2022
+#### June 10, 2022
 
 ---
 
@@ -165,26 +165,57 @@ Error dynamics
 <section>
 <h1> Adaptive Unknown Input Estimators </h1>
 <h2> Architecture and estimator error </h2>
+<style>
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  display: flex;
+  align-items: center;
+}
 
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
+<div class="container vertical-center">
+
+<div class="col">
 
  <ul>
-  <li style="padding-bottom:0.9em">ASD plant dynamics</li>
+  <li style="padding-bottom:0.5em">ASD plant dynamics</li>
 <ul>
-<li style="padding-bottom:0.9em">`$A_c^* P + P A_c = -Q$`</li>
-<li style="padding-bottom:0.9em">`$PB=C^*$`</li>
+<li style="padding-bottom:0.5em">`$A_c^* P + P A_c = -Q$`</li>
+<li style="padding-bottom:0.5em">`$PB=C^*$`</li>
 </ul>
-  <li>$A$ Hurwitz</li>
-  <li>Bounded `$L_{*}$`</li>
-  <li>Error in state and input converges to zero
+  <li style="padding-bottom:0.5em">$A$ Hurwitz</li>
+  <li style="padding-bottom:0.5em">Bounded `$L_{*}$`</li>
+  </ul>
+</div>
+
+
+
+<div class="col">
+<ul>
+ <li style="padding-bottom:0.5em">Error in state and input converges to zero
     <ul>
-      <li>`$V(e,\Delta L) = \frac{1}{2}e^*\bar{P}e+\frac{1}{2}\text{tr}(\Delta L \gamma_e^{-1} \Delta L^*)$`</li>
-      <li>`$\dot{V}(e, \Delta L)\leq -\Big(\underbrace{\frac{1}{2}\lambda_{\text{min}}(\bar{Q})-\varepsilon \mu\lambda_{\text{max}}(\bar{P})}_{\bar{\alpha}>0}\Big)||e||^2$`</li>
+      <li style="padding-bottom:0.5em">`$V(e,\Delta L) = \frac{1}{2}e^*\bar{P}e+\frac{1}{2}\text{tr}(\Delta L \gamma_e^{-1} \Delta L^*)$`</li>
+      <li style="padding-bottom:0.5em">`$\dot{V}(e, \Delta L)\leq -\Big(\underbrace{\frac{1}{2}\lambda_{\text{min}}(\bar{Q})-\varepsilon \mu\lambda_{\text{max}}(\bar{P})}_{\bar{\alpha}>0}\Big)||e||^2$`</li>
     </ul>
   </li>
 </ul> 
 <br>
 <p> `\begin{align} 0<\varepsilon <\frac{\lambda_{\text{min}}(\bar{Q})}{2 \mu \lambda_{\text{max}}(\bar{P})}\Longleftrightarrow \bar{\alpha}>0. \end{align}`</p>
+
+
+
+</div>
+
+
 
 </section>
 
