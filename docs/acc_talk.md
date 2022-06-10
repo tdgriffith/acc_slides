@@ -189,10 +189,10 @@ Error dynamics
  <ul>
   <li style="padding-bottom:0.5em">ASD plant dynamics</li>
 <ul>
-<li style="padding-bottom:0.5em">`$A_c^* P + P A_c = -Q$`</li>
-<li style="padding-bottom:0.5em">`$PB=C^*$`</li>
+<li style="padding-bottom:0.5em">`$\bar{A}_c^* \bar{P} + \bar{P} \bar{A}_c = -\bar{Q}$`</li>
+<li style="padding-bottom:0.5em">`$\bar{P}\bar{B}=\bar{C}^*$`</li>
 </ul>
-  <li style="padding-bottom:0.5em">$A$ Hurwitz</li>
+  <li style="padding-bottom:0.5em">$A_m$ Hurwitz</li>
   <li style="padding-bottom:0.5em">Bounded `$L_{*}$`</li>
   </ul>
 </div>
@@ -433,3 +433,12 @@ u_2(t)&=c_{11} +c_{22}t+c_{23}t^2+c_{24}t^3
 
 </section>
 
+---
+
+<!-- .slide: data-background="#003C71" class="dark" -->
+
+
+<h3>We lived in a sloppy world,  </h3>
+<h2> ***but we were precise, very precise.*** </h2>
+<br>
+<div style="text-align: right"> <small>- Carrying the Fire</small></div>
