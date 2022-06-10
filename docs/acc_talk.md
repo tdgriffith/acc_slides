@@ -192,12 +192,10 @@ Error dynamics
 <li style="padding-bottom:0.5em">`$\bar{A}_c^* \bar{P} + \bar{P} \bar{A}_c = -\bar{Q}$`</li>
 <li style="padding-bottom:0.5em">`$\bar{P}\bar{B}=\bar{C}^*$`</li>
 </ul>
-  <li style="padding-bottom:0.5em">$A_m$ Hurwitz</li>
+  <li style="padding-bottom:0.5em">$A$ Hurwitz</li>
   <li style="padding-bottom:0.5em">Bounded `$L_{*}$`</li>
   </ul>
 </div>
-
-
 
 <div class="col">
 <ul>
@@ -214,6 +212,8 @@ Error dynamics
 
 
 </div>
+
+
 
 
 
